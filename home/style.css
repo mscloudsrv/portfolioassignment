@@ -263,17 +263,17 @@
 }
 
 .services{
-    width: 20%;
-    min-height: 15%;
+    width: 17%;
+    min-height: 10%;
     display: block;
     text-align: center;
     padding: 2px;
     /* border: 2px solid gray;
     border-radius: 10px;
     box-shadow: 4px 2px 6px gray; */
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 8px;
     float: left;
     overflow: auto;
     cursor: pointer;
@@ -305,7 +305,8 @@
     font-size: 15px;
     word-spacing: 2px;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+   
 }
 
 /* <!-- Services End Here --> */
@@ -422,3 +423,312 @@
     /* border-radius: 1%; */
     border: 2px solid limegreen
 }
+/* <!-- Portfolio End Here --> */
+
+/* <!-- Process Start Here --> */
+
+.process{
+    max-width: 100%;
+    margin-top: 40px;
+    text-align: center;    
+}
+.process h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+.fontcolor{
+   color: rgb(145, 200, 70);
+}
+
+.process p{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+
+.container{
+    max-width: 100%;
+    margin-top: 30px;
+    text-align: justify;
+    
+}
+
+.process-img{
+    width: 15%;
+    min-height: 15%;
+    display: block;
+    text-align: center;
+    padding: 2px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: left;
+    overflow: auto;
+    cursor: pointer;
+    
+}
+
+.process-img:hover{
+    border: 2px solid gray;
+    border-radius: 50%;
+    box-shadow: 4px 2px 6px gray;
+    color:black;
+}
+
+.heading-process{
+    float: left;
+    width: 14%;
+    display: block;
+    font-size: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 17px;
+    margin-right: 17px;
+    padding:20px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: black;
+}
+
+.para-process{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 12px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* <!-- Process End Here --> */
+
+/* Reviews Start Here */
+
+.review-people{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(214, 212, 212);
+    margin-top: 0 auto;
+    float: left;
+}
+.review-people-about-us h1{
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+}
+.review-people-about-us p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.review-people-box{
+    width: 48%;
+    text-align: left;
+    float: left;
+    padding: 5px;
+    margin-top: 20px;
+    
+}
+.review-people-box img{
+    border-radius: 50%;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+.review-people-box h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+    float: left;
+    
+}
+.review-people-box p{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    float: left;
+    text-align: left;
+    margin-left: 190px;
+    padding: 20px;
+    margin-top: -130px;
+}
+.b{
+    border-bottom: 2px solid rgb(68, 67, 67);
+}
+#l{
+    border-left: 2px solid rgb(68, 67, 67);
+}
+/* Reviews End Here */
+
+/* Skills Start Here */
+
+.skill{
+    max-width: 100%;
+    margin-top: 40px;
+    text-align: center;  
+ 
+}
+.skill h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+.fontcolor{
+   color: rgb(145, 200, 70);
+}
+
+.skill p{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.skills{
+    width: 17%;
+    min-height: 10%;
+    display: block;
+    text-align: center;
+    padding: 2px;
+    /* border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 4px 2px 6px gray; */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 8px;
+    float: left;
+    overflow: auto;
+    cursor: pointer;
+    background-color: rgb(243, 236, 236);
+    color: lightslategray;
+}
+
+.skills:hover{
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 4px 2px 6px gray;
+    color:black
+}
+
+
+.heading-skills{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: black;
+}
+
+.para-skills{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 15px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+   
+}
+
+/* <!-- Skills End Here --> */
+
+/* <!-- New Project Start Here --> */
+
+.new-project{
+    max-width: 100%;
+    min-height: 320px;
+    background-color: rgb(145, 200, 70);
+    margin-top: 400px;
+    text-align: center;
+    padding: 30px;
+}
+
+.new-project h1{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    /* text-shadow: 4px 10px 9px rgb(167, 152, 152); */
+}
+.new-project p{
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.new-project form{
+    text-align: center;
+    padding: 30px 50px 30px 50px;
+}
+
+.new-project input{
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 6px;
+    padding: 8px;
+    /* border: 2px solid rgb(86, 121, 16); */
+    box-shadow: 5px 3px gray;
+
+}
+
+
+#button{
+    background-color:rgb(243, 143, 76);
+    /* margin-top: 3px; */
+    border-radius: 10%;
+    border: none;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    box-shadow: 5px 3px gray;
+}
+
+#button:hover{
+    color: rgb(231, 229, 229);
+}
+/* <!-- New Project End Here --> */
